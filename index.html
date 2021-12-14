@@ -10,12 +10,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     
   </head>
   
   <body>
-    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999; background-color: black;">
+    <nav id="navbar_styling1" class="navbar-inverse" style="position:sticky;top:0;z-index:99999; font-family: 'Raleway', sans-serif;">
 
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -23,15 +29,16 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
         </button>
-        <a class="navbar-brand" href="#">Ganith J </a>
+        <img id="image213" class="navbar-brand" src="https://media.discordapp.net/attachments/879626484371816478/919967461485449236/Ganith_J_5.png">
+        <a class="navbar-brand" id="main_text_style" style="font-family: 'Raleway', sans-serif; color:white;" href="#">GANITH J </a>
         
       </div>
       
       
       <div class="collapse navbar-collapse" id="myNavbar" style="padding-left: 1270px;">
         <ul class="nav navbar-nav">
-          <li><a href="#about"><span aria-hidden="true">ABOUT ME</span></a></li>
-          <li><a href="#contacts"><span aria-hidden="true">CONTACT</span></a></li>
+          <li><a href="#about"><span id="navvyboi" aria-hidden="true">ABOUT ME</span></a></li>
+          <li><a href="#contacts"><span id="navvyboi" aria-hidden="true">CONTACT</span></a></li>
         </ul>
       </div>
   
@@ -112,7 +119,7 @@
     <hr>
 
     <br>
-    <form action="https://formsubmit.co/ganith.rocks@gmail.com" method="POST"  id="form123">
+    <form id="div_cont" action="https://formsubmit.co/ganith.rocks@gmail.com" method="POST"  id="form123">
       <hr>
       <div>
       <input style="height: 34px; width: 180px; font-size: 18px; font-weight: 100;" type="text" name="name"  placeholder="Your name" required>
@@ -122,7 +129,7 @@
       <input style="height: 34px; width: 180px; font-size: 18px; font-weight: 100;" type="text" name="message" placeholder="Your message">
 <br>
       <button style="height: 34px; width: 180px; font-size: 18px; text-align: center; font-weight: bold;" class="btn btn-info" type="submit">Submit</button>
-      <input type="hidden" name="_next" value="https://ganith-bot.github.io/Portfolio./index.html">
+      <input type="hidden" name="_next" value="https://ganith-bot.github.io/Portfolio/index.html">
       <input type="hidden" name="_subject" value="New submission from portfolio!">
    <br>
    <hr>
